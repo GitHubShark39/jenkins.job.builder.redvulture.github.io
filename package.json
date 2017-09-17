@@ -1,0 +1,30 @@
+{
+  "name": "jenkins-job-builder",
+  "version": "1.0.9",
+  "description": "Build jenkins job without jenkins website!",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha"
+  },
+  "keywords": [
+    "jenkins,gulp"
+  ],
+  "author": "Noctis Hsu <noctishsu@gmail.com>",
+  "license": "ISC",
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "jasmine": "^2.4.1",
+    "karma": "^0.13.22",
+    "mocha": "^2.5.2"
+  },
+  "dependencies": {
+    "pace": "^0.0.4",
+    "request-promise": "^2.0.1",
+    "text-spinner": "0.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NoctisHsu/jenkins-job-builder.git"
+  }
+}
